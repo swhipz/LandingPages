@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header"
+import MobileNav from "./components/MobileNav/MobileNav"
 import './app.sass';
 
 function App() {
@@ -8,8 +9,10 @@ function App() {
       <div className="bgColorOne">
         <header className="headerbar">
           <Header />
-      <nav>here comes navigation i guess</nav> {/*to be replaced with a component*/}
       </header>
+      <div className="mobileNav">
+      <MobileNav/>
+      </div>
       <section className="heroElement">
       <h2 className="hook">Designed <br/>to help growing</h2>
       <p className="ptext">Our comprehensive marketing platform prioretizes your audience's needs.</p>

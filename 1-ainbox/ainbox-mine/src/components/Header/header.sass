@@ -1,8 +1,25 @@
 header
     display: flex
+    $primary-color: #2065b4
+    $secondary-color: #f4f4f4
+    $third-color: #393939
+    $button-radius: 6rem
+    padding-bottom: 5rem
 
     #compName
+        display: flex
+        justify-content: space-evenly
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        position: absolute
+        left: 2rem
+        padding: 1rem
+        img
+            position: absolute
+            left: -2rem
+            top: 1.25rem
+            padding-inline: 1rem
+            height: 2rem
+    
     ul
         display: flex
         list-style: none
@@ -17,41 +34,37 @@ header
             gap: 1rem
         #button1
             border: 1px solid #999
-            border-radius: 99px
+            border-radius: $button-radius
             a
-                color: #1759a5
+                color: $primary-color
                 font-weight: bold
-
-                
-        #button2
-            background-color: #1759a5
-            border-radius: 99px
-            color: #f4f4f4
             &:hover
-                  background-color: #f9f9f9  
-                  cursor:pointer
-                  
-
+                background-color: $secondary-color
+                border: 1px solid transparent    
+                cursor: pointer
+        #button2
+            background-color: $primary-color
+            border-radius: $button-radius
             a
+                color: $secondary-color
                 font-weight: bold
-                
-                &:hover
-                    color: #1759a5
-                
+            &:hover
+                  background-color: $secondary-color
+                  color: $primary-color
+                  
 
 
         li
             padding: 1rem
-
-
-
             a
                 text-decoration: none
-                color: black
+                color: $third-color
                 padding-inline: .5rem
-                border-radius: 9px
                 padding-bottom: .25rem
-            &:hover
-                background-color: #f9f9f9
-                    
-               
+                font-weight: 500
+
+                &:hover
+                    color: lighten($third-color, 33)
+                    text-shadow: 1px 1px 2px $secondary-color
+
+    
