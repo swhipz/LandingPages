@@ -13,6 +13,7 @@ function App() {
       <div className="mobileNav">
       <MobileNav/>
       </div>
+      
       <section className="heroElement">
       <h2 className="hook">Designed <br/>to help growing</h2>
       <p className="ptext">Our comprehensive marketing platform prioretizes your audience's needs.</p>

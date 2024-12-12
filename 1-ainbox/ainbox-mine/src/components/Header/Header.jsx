@@ -1,7 +1,11 @@
 import React from "react";
 import './header.sass'
+import Button from "../Button/Button"
+
 
 const Header = () => {
+
+
     return(
     <>
     <div className="headerContainer">
@@ -14,7 +18,9 @@ const Header = () => {
             <div className="buttonsWrap">
             <li id="button1"><a href=".">Important1</a></li>
             <li id="button2"><a href=".">Important2</a></li>
+            <Button />
             </div>
+
         </ul> 
     </div>
     </>
