@@ -2,6 +2,7 @@ import Header from "./components/Header/Header"
 import MobileNav from "./components/MobileNav/MobileNav"
 import './app.sass';
 import Hero from "./components/Hero/Hero";
+import SectionOne from "./components/Sections/SectionOne";
 
 function App() {
   return (
@@ -11,21 +12,23 @@ function App() {
         <header className="headerbar">
           <Header />
       </header>
+
       <div className="mobileNav">
-      <MobileNav/>
+        <MobileNav/>
       </div>
-      
+
       <section className="heroElement">
         <Hero />
-       {/*to be replaced with a component*/}
       </section>
 
     </div>       
     <div className="bgColorThree">
-      <h3>Unify your marketing <br />endeavours in one place</h3>
-      <p className="ptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est iste totam eveniet voluptas inventore incidunt, ad non quibusdam delectus.</p>
-    <button>Explore potential</button>
+    <section className="sectionOne">
+        <SectionOne/>
+    </section>
     </div>
+
+    
     <div className="bgColorTwo">
      <h4>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quae maiores deleniti velit voluptate quaerat numquam atque rerum fugit harum. Nesciunt eligendi beatae et dignissimos nulla? Molestiae, perferendis. Perspiciatis quod sapiente minima cupiditate, omnis in sequi labore quas fugiat rerum."</h4> 
      <button>See our customer's story</button>

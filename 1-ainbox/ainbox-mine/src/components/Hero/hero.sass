@@ -9,7 +9,7 @@ $button-radius: 6rem
 .contentWrap
     align-content: flex-start
     align-items: flex-start
-    background-color: #f8e1f9
+    background #f8e1f9
     display: flex
     flex: none
     flex-direction: row
@@ -24,7 +24,7 @@ $button-radius: 6rem
     .heroWrap
         display: flex
         flex-direction: row
-        max-width: 60vw
+        max-width: 60%
         
         .imgWrap
             width: 399px
@@ -78,33 +78,40 @@ $button-radius: 6rem
 
 
 
-    @media screen and (max-width: 990px)
+@media screen and (max-width: 900px)
+    .contentWrap
         .heroWrap
             flex-direction: column
             max-width: 322px
-            gap: 44px            
+            .textWrap
+                flex: none
+                order: 0
+                width: 100%
+                .imgWrap
+                    order: 1
+                    
+                            
 
     //reusable in this state really
-    #button
-        position: relative
-        min-width: 145px
-
-        background-color: $primary-color
-        color: $secondary-color
-        border-radius: $button-radius
-        font-weight: bold
-        padding: 18px 36px
-        border: none
-        box-shadow: none
-        &:hover
-            background-color: #f9f9f9
-            color: $primary-color
-            cursor: pointer
-            border: 1px solid $third-color
-            li
-                padding: 1rema
-                text-decoration: none
-                &:hover
-                    color: darken($third-color, 55)
-                    text-shadow: 1px 1px 2px $secondary-color
+#button
+    position: relative
+    min-width: 145px
+    background-color: $primary-color
+    color: $secondary-color
+    border-radius: $button-radius
+    font-weight: bold
+    padding: 18px 36px
+    border: none
+    box-shadow: none
+    &:hover
+        background-color: #f9f9f9
+        color: $primary-color
+        cursor: pointer
+        border: 1px solid $third-color
+        li
+            padding: 1rema
+            text-decoration: none
+            &:hover
+                color: darken($third-color, 55)
+                text-shadow: 1px 1px 2px $secondary-color
                     

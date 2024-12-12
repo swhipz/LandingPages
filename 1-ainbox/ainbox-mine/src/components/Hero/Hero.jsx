@@ -1,7 +1,7 @@
 import "./hero.sass"
 const Hero = () => {
-    return(
-        <>
+    
+    return (<>
         <div className="contentWrap">
         <div className="heroWrap">
             <div className="imgWrap">
@@ -14,7 +14,6 @@ const Hero = () => {
             </div>
             </div>
         </div>
-        </>
-    )
+    </>);
 }
 export default Hero;

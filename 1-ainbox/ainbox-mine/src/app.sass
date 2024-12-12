@@ -19,21 +19,28 @@ body
     .App
         padding: 0
         marign: 0 auto
-        color: #292929
+        color: #201d15#201d15
+        width: auto
         
         .container
             
+            
             .bgColorOne
                 background-color: #f8e1f9
-                height: 70vh
+                height: 60vh
+                @media screen and (max-width: 900px)
+                    height: 130vh
 
             .bgColorTwo
                 background-color: rgba(126, 201, 158, 0.413)    
                 height: 60vh
             
             .bgColorThree
-                background-color: rgb(255, 255, 255)
-                height: 30vh
+                padding-top: 128px
+                background-color: #ffff
+                height: 50vh
+                @media screen and (max-width: 900px)
+                    height: 160vh
             
             .bgColorFour
                 background-color: rgba(193, 191, 146, 0.276)  
@@ -53,6 +60,8 @@ $layout-breakpoint-headerBreaks: 920px
 
   .headerbar
     display: none
+
+    
     
     
 
