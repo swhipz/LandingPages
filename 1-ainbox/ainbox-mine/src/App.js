@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header"
 import MobileNav from "./components/MobileNav/MobileNav"
 import './app.sass';
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
       </div>
       
       <section className="heroElement">
-      <h2 className="hook">Designed <br/>to help growing</h2>
-      <p className="ptext">Our comprehensive marketing platform prioretizes your audience's needs.</p>
-      <button>Book Demo</button> {/*to be replaced with a component*/}
+        <Hero />
+       {/*to be replaced with a component*/}
       </section>
+
     </div>       
     <div className="bgColorThree">
       <h3>Unify your marketing <br />endeavours in one place</h3>
