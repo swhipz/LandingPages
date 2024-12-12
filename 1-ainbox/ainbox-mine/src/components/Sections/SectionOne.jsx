@@ -3,7 +3,7 @@ const SectionOne = () => {
     
     return (<>
     <div className="one-main">
-        <div className="featureSectionContentWrap">
+        <div className="splitter">
         <h2 className="banner">Unlock the possibilities</h2>
             <div className="sectionWrap">
             <div className="eleWrap">

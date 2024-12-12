@@ -3,6 +3,7 @@ import MobileNav from "./components/MobileNav/MobileNav"
 import './app.sass';
 import Hero from "./components/Hero/Hero";
 import SectionOne from "./components/Sections/SectionOne";
+import SectionTwo from "./components/Sections/SectionTwo";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <SectionOne/>
     </section>
     </div>
-
+      <SectionTwo />
     
     <div className="bgColorTwo">
      <h4>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quae maiores deleniti velit voluptate quaerat numquam atque rerum fugit harum. Nesciunt eligendi beatae et dignissimos nulla? Molestiae, perferendis. Perspiciatis quod sapiente minima cupiditate, omnis in sequi labore quas fugiat rerum."</h4> 
