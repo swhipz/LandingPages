@@ -1,0 +1,26 @@
+.wrap{
+    display: flex;
+    background-color: #292929;
+    justify-content: center;
+    
+}
+.footer{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+}
+.footerNav{
+
+}
+.info{
+    text-align: center;
+    color: #fff;
+
+}
+.paym{
+    display: flex;
+    justify-content: space-evenly;
+}
+
