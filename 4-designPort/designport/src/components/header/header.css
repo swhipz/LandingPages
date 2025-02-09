@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*, body{
+  margin: 0;
+  font-family: "Inter", serif;
+  
+}
+
+.header-container{
+  position: sticky;
+  top: 0;
+  left:0;
+  background-color: hsla(0, 0%, 16%, 0.55); 
+  color: #fff;
+  height: 9vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.header-right{
+  display: flex;
+}
+.header-right ul{
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  gap: 5rem;
+  font-weight: 500;
+}
+.header-left h1{
+  position: absolute;
+  left: 2vw;
+  top: 1.5vh;
+  font-weight: 650;
+  line-height: 1.5rem;
+  letter-spacing: -.125rem;
+
+
+}
+
+@media screen and (max-width: 789px){
+  .header-container{
+    height: 12vh;
+    justify-content: center;
+    
+  }
+  .header-right ul{
+    gap: 2rem;
+    padding: none;
+    margin-left: -2rem;
+    align-items: center;
+  }
+  .header-left{
+    display: none;
+  }
+}
+
+
