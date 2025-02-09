@@ -29,6 +29,14 @@
   gap: 5rem;
   font-weight: 500;
 }
+.header-right li{
+  cursor: pointer;
+}
+.header-right li:hover{
+  color: rgb(53, 178, 4);
+  
+}
+
 .header-left h1{
   position: absolute;
   left: 2vw;

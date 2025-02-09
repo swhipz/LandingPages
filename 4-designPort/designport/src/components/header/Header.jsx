@@ -1,5 +1,8 @@
 import "./header.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
+
 
 const Header = () => {
 
@@ -14,8 +17,9 @@ const Header = () => {
           <ul>
             <li>Hjem</li>
             <li>Arbeid</li>
-            <li>Om meg</li>
+            <li>Om</li>
             <li>Kontakt</li>
+            <li style={{color: "#FFF", right: "5vw"}}><FontAwesomeIcon icon={faLightbulb} /></li>
           </ul>
         </div>
       </div>
