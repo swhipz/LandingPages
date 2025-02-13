@@ -22,17 +22,35 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   text-align: left;
-  font-size: 48px;
+  font-size: 38px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
 
 .cta-hero{
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   border-radius: 99px;
   font-weight: 600;
   background-color: #4FC3F7;
   color: #FFF3E0;
   border: 1px solid transparent;
+  font-size: 28px;
+  white-space: nowrap;
+  transition: .3s ease-in-out;
+ 
 }
+.cta-hero:hover{
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  background-color: #FFF3E0;
+  box-shadow: #FFF3E0 1px 1px 50px 6px;
+  color: #A8E6A3;
+
+}
+
+
 
 
 .content-split-for-desktop{

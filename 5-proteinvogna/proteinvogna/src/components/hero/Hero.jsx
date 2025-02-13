@@ -1,6 +1,7 @@
 import './hero.css';
 import  IMG1  from "./wagon.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () =>  {
 
@@ -12,9 +13,9 @@ const Hero = () =>  {
       <div className="hero-content">
         <h1>Proteinvogna</h1>
         <div className="content-split-for-desktop">
-          <div className='hero-left'>Proteinvogna er et <u style={{color:"lightgreen"}}>sunnere</u> alternativ <br /> i en hektisk hverdag 
+          <div className='hero-left'>Et sunnere alternativ i en hektisk hverdag 
           
-          <br/><button className="cta-hero"><FontAwesomeIcon icon={faLocationDot} /> Se plassering</button>
+          <br/><button className="cta-hero"><FontAwesomeIcon icon={faLocationDot} style={{color:"#EF5350"}}/> Plassering</button>
           </div>
            
             <img src={IMG1} alt='wagon'  className='wagon-img'/>
