@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.hero-wrapper{
+  background: linear-gradient(180deg, #FFF3E0 0%, #8D6E63 56%);
+}
+
+.hero-wrapper h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFF3E0;
+  text-shadow: -2px 2px 4px #8D6E63;
+}
+.wagon-img{
+ 
+ 
+}
+
+.hero-left{
+  color: #FFF3E0;
+  text-shadow: -2px 2px 4px #8D6E63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  font-size: 48px;
+}
+
+
+.content-split-for-desktop{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: center;
+
+}
+
+
+@media screen and (max-width: 789px){
+.content-split-for-desktop{
+  width: 100%;
+}
+  .hero-left{
+  display: none;
+}
+.wagon-img{
+  height: 55vh;
+}
+}
