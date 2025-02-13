@@ -25,6 +25,15 @@
   font-size: 48px;
 }
 
+.cta-hero{
+  padding: 1rem 2rem;
+  border-radius: 99px;
+  font-weight: 600;
+  background-color: #4FC3F7;
+  color: #FFF3E0;
+  border: 1px solid transparent;
+}
+
 
 .content-split-for-desktop{
   display: flex;

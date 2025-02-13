@@ -1,6 +1,7 @@
 import './hero.css';
 import  IMG1  from "./wagon.png";
 
+
 const Hero = () =>  {
 
   
@@ -11,8 +12,13 @@ const Hero = () =>  {
       <div className="hero-content">
         <h1>Proteinvogna</h1>
         <div className="content-split-for-desktop">
-          <div className='hero-left'>Proteinvogna er et <u style={{color:"lightgreen"}}>sunnere</u> alternativ <br /> i en hektisk hverdag</div>
+          <div className='hero-left'>Proteinvogna er et <u style={{color:"lightgreen"}}>sunnere</u> alternativ <br /> i en hektisk hverdag 
+          
+          <br/><button className="cta-hero"><FontAwesomeIcon icon={faLocationDot} /> Se plassering</button>
+          </div>
+           
             <img src={IMG1} alt='wagon'  className='wagon-img'/>
+            
         </div>
       </div>
     </div>
