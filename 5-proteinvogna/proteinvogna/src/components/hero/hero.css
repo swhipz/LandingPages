@@ -10,6 +10,7 @@
   text-transform: uppercase;
   color: #FFF3E0;
   text-shadow: -2px 2px 4px #8D6E63;
+  font-size: 4rem;
 }
 .wagon-img{
  
@@ -27,6 +28,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   gap: 2rem;
+  position: relative;
+  top: -100px;
 }
 
 .cta-hero{
@@ -39,7 +42,9 @@
   font-size: 28px;
   white-space: nowrap;
   transition: .3s ease-in-out;
- 
+  position: relative;
+  left: -25vw;
+  top: -10rem;
 }
 .cta-hero:hover{
   transition: .3s ease-in-out;
@@ -50,9 +55,6 @@
 
 }
 
-
-
-
 .content-split-for-desktop{
   display: flex;
   flex-direction: row;
@@ -61,8 +63,10 @@
 
 }
 
-
 @media screen and (max-width: 789px){
+.hero-wrapper h1 {
+  font-size: 2.5rem;
+}
 .content-split-for-desktop{
   width: 100%;
 }
@@ -72,4 +76,11 @@
 .wagon-img{
   height: 55vh;
 }
+
+.cta-hero{
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
 }

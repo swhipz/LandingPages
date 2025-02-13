@@ -15,12 +15,14 @@ const Hero = () =>  {
         <div className="content-split-for-desktop">
           <div className='hero-left'>Et sunnere alternativ i en hektisk hverdag 
           
-          <br/><button className="cta-hero"><FontAwesomeIcon icon={faLocationDot} style={{color:"#EF5350"}}/> Plassering</button>
+          <br/>
+          
           </div>
            
             <img src={IMG1} alt='wagon'  className='wagon-img'/>
             
         </div>
+        <button className="cta-hero"><FontAwesomeIcon icon={faLocationDot} style={{color:"#EF5350"}}/> Plassering</button>
       </div>
     </div>
     </>
