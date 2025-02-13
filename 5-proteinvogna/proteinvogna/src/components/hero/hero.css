@@ -36,8 +36,8 @@
   padding: 2rem 4rem;
   border-radius: 99px;
   font-weight: 600;
-  background-color: #4FC3F7;
-  color: #FFF3E0;
+  background-color: #fff3e0;
+  color: #a8e6a3;
   border: 1px solid transparent;
   font-size: 28px;
   white-space: nowrap;
@@ -49,9 +49,9 @@
 .cta-hero:hover{
   transition: .3s ease-in-out;
   cursor: pointer;
-  background-color: #FFF3E0;
+  background-color: #c9c9c9;
   box-shadow: #FFF3E0 1px 1px 50px 6px;
-  color: #A8E6A3;
+  color: #fff3e0;
 
 }
 
