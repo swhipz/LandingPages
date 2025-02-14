@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
 
 .locations-wrapper{
   display: flex;
@@ -7,14 +6,16 @@
   background-color: #8D6E63;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Host Grotesk', sans-serif;
+
+  padding-bottom: 25vh;
 }
 .locations-header{
-
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 7rem;
+  letter-spacing: -.1rem;
+  line-height: 1;
   color: #8D6E63;
-  font-size: 4rem;
   background-color: #FFF3E0;
   width: 44vw;
   border-radius: 9px;
@@ -27,8 +28,7 @@
   background-color: #FFF3E0;
   justify-content: center;
   color: #8D6E63;
-  align-items: center;
-  height: 100vh;
+  height: 50vh;
   padding:5rem;
   border-radius: 9px;
 }
@@ -40,14 +40,13 @@
 }
 .locations-info{
   width: 30vw;
+  display: flex;
+  flex-direction: column;
 }
-.lokasjon-table table{
-  
 
-}
-.lokasjon-table th{
-  border: 1px solid black;
-  width: 40vw;
+.lokasjon-table{
+  border: 1px solid #8D6E63;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 789px){
@@ -62,10 +61,26 @@
   .locations-left{
     width: 100vw;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .lokasjon-table{
+    position: relative;
+    left: -30vw;
+    width: 90vw;
+    border: 1px solid #8D6E63;
+    padding:0;
+
+  }
+  table{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
   }
   .location-map{
     order: 0;
-    width: 90vw;
+    height: 100vh;
   }
   .locations-info{
     order: 1;

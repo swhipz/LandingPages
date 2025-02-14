@@ -1,20 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
 
 .hero-wrapper{
   background: linear-gradient(180deg, #FFF3E0 0%, #8D6E63 56%);
   overflow-x: hidden;
+  z-index: -99;
+}
+.blob{
+  position: absolute;
+  width: 100vw;
+  left: -50vw;
+  top: -20vh;
+  opacity: 40%;
+  z-index: 0;
+}
+.blob2{
+  position: absolute;
+  rotate: 90deg;
+  width: 120vw;
+  right: -70vw;
+  top: -80vh;
+  opacity: 50%;
+  z-index: 0;
 }
 
 .hero-wrapper h1{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   color: #FFF3E0;
   text-shadow: -2px 2px 4px #8D6E63;
   font-size: 4rem;
 }
 .wagon-img{
- 
+  z-index: 1;
  
 }
 
@@ -22,7 +40,7 @@
   color: #FFF3E0;
   text-shadow: -2px 2px 4px #8D6E63;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   text-align: left;
   font-size: 38px;
   display:flex;
@@ -31,10 +49,17 @@
   gap: 2rem;
   position: relative;
   white-space: nowrap;
+  z-index: 1;
+}
+.hero-text{
+  font-weight: 900;
+  font-optical-sizing: auto;
 }
 
 .cta-hero{
-  padding: 2rem 3rem;
+  padding: 0;
+  width: 30rem;
+  height: 5rem;
   border-radius: 99px;
   font-weight: 600;
   background-color: #fff3e0;
@@ -77,8 +102,13 @@
 }
 
 @media screen and (max-width: 789px){
-.hero-wrapper h1 {
+
+  .hero-wrapper h1 {
   font-size: 2.5rem;
+}
+.blob{
+  top: 0;
+  z-index: 0;
 }
 .content-split-for-desktop{
   width: 75vw;
@@ -87,7 +117,7 @@
 }
 .hero-left{
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
   padding-top: 40vh;
 }
 .hero-text{
@@ -100,16 +130,17 @@
   order: 1;
   height: 55vh;
   position: relative;
-  left: -125px;
+  left: -9rem;
   top: -100vh;
-  z-index: 0;
+  z-index: 1;
 }
 
 .cta-hero{
   position: relative;
+  left: -2rem;
   order: 0;
   font-size: 1.5rem;
-  width: fit-content;
+  width: 23rem;
  
 }
 

@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Hero from './components/hero/Hero'
-import Landing from './components/locations/Landing';
+import Location from './components/locations/Locaiton';
+import Meny from './components/menu/Menu';
 
 function App() {
   return (
     <div className="App">
       <Hero />
-      <Landing />
+      <Location />
+      <Meny />
     </div>
   );
 }

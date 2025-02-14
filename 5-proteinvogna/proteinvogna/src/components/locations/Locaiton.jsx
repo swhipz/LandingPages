@@ -2,7 +2,7 @@ import './landing.css';
 
 
 
-const Landing = () => {
+const Location = () => {
   return (
     <>
       <div className="locations-wrapper">
@@ -22,6 +22,18 @@ const Landing = () => {
                 <td>Februar</td>
                 <td>Terningen Arena, Elverum</td>
               </tr>
+              <tr>
+                <td>Mars</td>
+                <td>Bestill til et senter nær deg!</td>
+              </tr>
+              <tr>
+                <td>April</td>
+                <td>Bestill til et senter nær deg!</td>
+              </tr>
+              <tr>
+                <td>Mai</td>
+                <td>Bestill til et senter nær deg!</td>
+              </tr>
             </table>
           </div>
 
@@ -33,4 +45,4 @@ const Landing = () => {
   )
 
 }
-export default Landing;
+export default Location;
