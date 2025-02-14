@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+.about-wrapper{
+  height: 200vh;
+  font-family: 'Host Grotesk', sans-serif;
+
+}
+.about-bg1{
+  background-attachment: fixed;
+  height: 200vh;
+  background-position: center;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./woman-with-visible-abs-doing-fitness.jpg');
+}
+.about-bg2{
+  height: 100vh;
+  background-position: center;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./woman-with-visible-abs-doing-fitness (1).jpg');
+  transform: scaleX(-1);
+}
+
+.bg1-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg1-card{
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  padding: 2rem;
+  border-radius: 19px;
+  box-shadow: 2px 4px 2px #8bf535;
+  background-color: #f7ffe7;
+
+}
+.card-left{
+  width: 45%;
+}
+.card-right{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #8bf535;
+}
+.card-right h4{
+  font-weight: 800;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  color: #8bf535;
+
+}
+.card-right ul{
+  list-style: none;
+}
+.card-img-1{
+  border: 4px solid #8bf535;
+  height: 45vh;
+  border-radius: 33px;
+  width: 25vw;
+  object-fit: cover;
+  object-position: 30% 50%;
+}
+@media screen and (max-width: 400px){
+.about-bg1{
+  background-position-x: -900px;
+}
+.about-bg2{
+  height: 100%;
+}
+
+.card-img-1{
+  height: 20vh;
+  width: 40vw;
+
+}
+.card-right{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.card-right h4{
+  position: relative;
+  left: 1.5rem;
+  font-size: 1.25rem;
+}
+}
+@media screen and (max-width: 789px){
+  .about-bg1{
+    background-position-x: -700px;
+  }
+}
