@@ -64,6 +64,7 @@
 .menu-right{
   width: 20vw;
   z-index: 1;
+  line-height: 3.4rem;
   
 
 }
@@ -89,5 +90,7 @@
     line-height: 1rem;
     gap:4rem;
   }
-
+  .menu-right{
+    line-height: 1.2rem;
+  }
 }
