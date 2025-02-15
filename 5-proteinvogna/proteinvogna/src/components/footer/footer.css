@@ -14,3 +14,10 @@
   line-height:0px;
   letter-spacing: -.09rem;
 }
+
+@media screen and (max-width: 789px){
+  .footer-content{
+    font-size: 2rem;
+    
+  }
+}
