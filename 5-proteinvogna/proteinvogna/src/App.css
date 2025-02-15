@@ -1,8 +1,11 @@
 body{
   overflow-x: hidden;
+  background-color: #8D6E63;
+  
 }
 .App {
   text-align: center;
+  background-color: #8D6E63;
 }
 
 .App-logo {

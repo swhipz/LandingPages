@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+.footer-wrapper{
+  font-family: 'Host Grotesk', sans-serif;
+  background-color: #8D6E63;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.footer-content{
+  font-weight: 800;
+  color: #f9f9f9;
+  font-size: 4rem;
+}

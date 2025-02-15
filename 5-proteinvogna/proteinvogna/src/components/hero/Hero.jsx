@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faArrowDownShortWide } from '@fortawesome/free-solid-svg-icons';
 import im2 from './background-blob-service-1.png.png';
 import Location from '../locations/Locaiton';
+import blobSolid from "./blob.svg";
 
 const Hero = () =>  {
 
@@ -16,6 +17,7 @@ const Hero = () =>  {
         <h1>Proteinvogna</h1>
         <div className="content-split-for-desktop">
           <div className='hero-left'><div className="hero-text">Et sunnere alternativ <br /> i en hektisk hverdag </div> 
+          
           
           <br/>
           <button className="cta-hero" onClick={()=>{window.scroll({left: 0, top:800, behavior: 'smooth'})}}>
@@ -32,6 +34,8 @@ const Hero = () =>  {
       </div>
     <img src={im2} alt="blob" className='blob' />
     <img src={im2} alt="blob" className='blob2' />
+    <img src={blobSolid} alt="solid blob" className='blob3' />
+    
     </div>
     
     </>

@@ -22,14 +22,21 @@
   opacity: 50%;
   z-index: 0;
 }
+.blob3{
+  position: absolute;
+  rotate: 50deg;
+  width: 110vw;
+  opacity: 50%;
+  z-index: 0;
+}
 
 .hero-wrapper h1{
   font-family: "Host Grotesk", sans-serif;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #FFF3E0;
   text-shadow: -2px 2px 4px #8D6E63;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 .wagon-img{
   z-index: 1;
@@ -39,10 +46,10 @@
 .hero-left{
   color: #FFF3E0;
   text-shadow: -2px 2px 4px #8D6E63;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Host Grotesk", sans-serif;
   font-weight: 800;
   text-align: left;
-  font-size: 38px;
+  font-size: 3rem;
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;

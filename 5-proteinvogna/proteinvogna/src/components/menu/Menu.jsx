@@ -1,5 +1,7 @@
 import './menu.css';
 import sidevogn from './vogna-side.png';
+import waveBG from './magicpattern-wave-generator-1739638419469.png';
+
 
 const Meny = () => {
   return (
@@ -33,6 +35,7 @@ const Meny = () => {
         </div>
       </div>
     </div>
+    <img src={waveBG} alt="wavy" className='wave-bg' />
     </div>
     </>
   )

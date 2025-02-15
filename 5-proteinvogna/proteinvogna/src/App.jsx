@@ -4,6 +4,8 @@ import Hero from './components/hero/Hero'
 import Location from './components/locations/Locaiton';
 import Meny from './components/menu/Menu';
 import About from './components/about/About';
+import Footer from './components/footer/Footer';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Location />
       <Meny />
       <About />
+      <Footer />
     </div>
   );
 }
