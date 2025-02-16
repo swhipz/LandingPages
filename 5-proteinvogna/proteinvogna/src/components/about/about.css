@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
 .about-wrapper{
-  height: 100vh;
   font-family: 'Host Grotesk', sans-serif;
  
 
@@ -14,8 +13,6 @@
   background-size: cover;
   background-image: url('./woman-with-visible-abs-doing-fitness.jpg');
   
-  
-  
 }
 .about-bg2{
   height: 100vh;
@@ -25,7 +22,7 @@
   background-size: cover;
   background-image: url('./woman-with-visible-abs-doing-fitness (1).jpg');
   
-  transform: scaleX(-1);
+ 
 }
 
 .bg1-content{
@@ -34,6 +31,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
   backdrop-filter: blur(5px);
   backdrop-filter: saturate(1.9) ;
 }
@@ -80,16 +78,23 @@
   
 }
 @media screen and (max-width: 400px){
+.about-wrapper{
+  height: 200vh;
+}
 .about-bg1{
   background-position-x: -900px;
+  height: 200vh;
 }
 .about-bg2{
   height: 100%;
 }
 
+.bg1-card{
+  
+}
 .card-img-1{
   height: 20vh;
-  width: 40vw;
+  width: 75vw;
 
 }
 .card-right{
@@ -105,5 +110,14 @@
 @media screen and (max-width: 789px){
   .about-bg1{
     background-position-x: -700px;
+    width: 100vw;
+
   }
+  .bg1-card{
+    flex-direction: column;
+  }
+  .card-img-1{
+    width: 75vw;
+  }
+
 }

@@ -3,7 +3,7 @@
 .hero-wrapper{
   background: linear-gradient(180deg, #FFF3E0 0%, #8D6E63 56%);
   overflow-x: hidden;
-  z-index: -99;
+  z-index: -1;
 }
 .blob{
   position: absolute;
@@ -110,6 +110,9 @@
 
 @media screen and (max-width: 789px){
 
+.hero-wrapper{
+  z-index: -1;
+}
   .hero-wrapper h1 {
   font-size: 2.5rem;
 }
@@ -118,7 +121,7 @@
   z-index: 0;
 }
 .content-split-for-desktop{
-  width: 75vw;
+  
   justify-content: center;
   flex-direction: column;
 }
@@ -135,10 +138,9 @@
 }
 .wagon-img{
   order: 1;
-  height: 55vh;
   position: relative;
   left: -9rem;
-  top: -100vh;
+  top: -90vh;
   z-index: 1;
 }
 
