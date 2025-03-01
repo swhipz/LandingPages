@@ -6,9 +6,11 @@
 
 .header-wrap{
   background-color: #7a7a7a;
-  height: 22vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  padding-bottom: .25rem;
 }
 .header-wrap h1{
   font-family:"ITC", sans-serif;
@@ -16,6 +18,8 @@
   color: #fff;
   padding: .75rem;
   letter-spacing: -.25rem;
+  z-index: 2;
+
 }
 .copy{
   display: flex;
@@ -31,25 +35,75 @@
 .global-navigation{
   font-family: sans-serif;
   position: relative;
-  top: -1.25rem;
+  bottom: 0;
   left: 1rem;
   color: #fff;
   display: flex;
   flex-direction: row;
+  width: fit-content;
+  font-size: .75rem;
 }
 .global-navigation ul{
   display: flex;
   list-style: none;
   flex-direction: row;
   gap: 1rem;
-  
 }
 .global-navigation-list li{
   border-right: 1px solid #fff;
-  padding-inline: 1rem;
+  padding: .125rem 1rem;
 }
 
 .global-navigation-list li:hover{
   background-color: #5f5f5f;
   cursor: pointer;
+}
+
+
+
+/***/
+
+
+.help-navigation{
+  font-family: sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: fit-content;
+  width: fit-content;
+  padding: .125rem 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  background-color: #292929;
+  z-index: 1;
+  font-size: .75rem;
+
+}
+.help-navigation ul{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.help-navigation-list li{
+  border-right: 1px solid #fff;
+  padding: .125rem 1rem;
+}
+
+.help-navigation-list li:hover{
+  background-color: #7a7a7a;
+}
+
+.interresting-design-choice{
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background-color: #7a7a7a;
+  width: 50px;
+  height: 50px;
+  border-radius: 99px;
+
+
 }

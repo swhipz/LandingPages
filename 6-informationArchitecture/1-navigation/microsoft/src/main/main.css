@@ -1,0 +1,51 @@
+.main-wrap{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.main-content{
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -.25rem;
+  line-height: 4rem;
+}
+.snapshots{
+  display: flex;
+  width: 500px;
+}
+.img{
+  font-size: 200px;
+}
+.text{
+  flex-direction: column;
+}
+.snapshots h2{
+  position: relative;
+  left: -25px;
+  font-size: 48px;
+}
+.snapshots p{
+  width: 200px;
+}
+.main-official-wrap{
+  width: 300px;
+}
+.downloads-wrap{
+  height:min-content;
+  padding: 3rem 0rem;
+}
+.official-header{
+  background-color: #bfbfbf;
+  padding: 3px;
+  padding-left: 1rem;
+  font-weight: 600;
+  border-top-left-radius: 99px;
+}
+.main-official-wrap li{
+  padding: .5rem 0;
+}
+.main-official-wrap li a{
+  color: #2c1e40;
+}
+
+

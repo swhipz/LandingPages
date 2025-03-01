@@ -10,7 +10,7 @@ const Aside = () => {
           <input type="text" name="search" id="search" />
           <button type="submit" className="search-go-button">GO</button>
         </div>
-        <a href="#">Advanced Search</a>
+        <a href=".">Advanced Search</a>
       </div>
           <ul className="product-fam">
           <p>Product Families</p>

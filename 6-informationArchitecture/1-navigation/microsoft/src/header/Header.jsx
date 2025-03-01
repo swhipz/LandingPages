@@ -17,6 +17,17 @@ const Header = () => {
               <li style={{borderRight:"none"}}>MSN</li>
             </ul>
           </div>
+
+
+          <div className="help-navigation">
+            <ul className="help-navigation-list">
+              <li>All Products</li>
+              <li>Support</li>
+              <li>Search</li>
+              <li style={{borderRight:"none"}}>Microsoft Guide</li>
+              <div className="interresting-design-choice"></div>
+            </ul>
+          </div>
     </div>
     </>
   )
