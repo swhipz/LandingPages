@@ -6,7 +6,7 @@ const Main = () => {
     <>
     <div className="main-wrap">
       <div className="main-promoted-wrap">
-      <h1 className="main-content">promoted content</h1>
+      <h1 className="main-content"></h1>
       <section className="snapshots">
       <div className="img">🐕</div>
        <div className="snapshots text">
@@ -14,10 +14,28 @@ const Main = () => {
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quis enim dolorum quos saepe nostrum, soluta animi vitae incidunt perferendis fugiat magnam unde officia illum.</p>
         </div>
       </section>
+
+      <section className="snapshots">
+      <div className="img">🐋</div>
+       <div className="snapshots text">
+          <h2>Whaled</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quis enim dolorum quos saepe nostrum, soluta animi vitae incidunt perferendis fugiat magnam unde officia illum.</p>
+        </div>
+      </section>
+
+      <section className="snapshots">
+      <div className="img">🏢</div>
+       <div className="snapshots text">
+          <h2>Building</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quis enim dolorum quos saepe nostrum, soluta animi vitae incidunt perferendis fugiat magnam unde officia illum.</p>
+        </div>
+      </section>
+
+
     </div>
    
     <div className="main-official-wrap">
-     <h1 className="main-content">official</h1>
+     <h1 className="main-content"></h1>
 
         <div className="downloads-wrap">
           <div className="official-header">Downloads</div>
