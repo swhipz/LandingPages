@@ -18,7 +18,32 @@ body{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/*BACK BUTTON*/
+.back{
+  position: absolute;
+  z-index: 99;
+  top: 80px;
+  left: 25px;
+}
+.back img{
+  height: 60px;
+  border: 4px solid transparent;
 
+}
+.back img:hover{
+  transition: .3s ease-in-out;
+  height: 64px;
+  border: .2px solid transparent;
+}
+@media screen and (max-width:500px) {
+  .back{
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 5vh;
+}  
+}
+/*BACK BUTTON*/
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
